@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diego\\OneDrive\\Desktop\\Desarrollo de Software IV\\Visual Studio C#\\Proyectos\\Lab#3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{589EC70C-3009-4295-915E-F1DB8767FCA9}|Lab#3\\Lab#3.csproj|c:\\users\\diego\\onedrive\\desktop\\desarrollo de software iv\\visual studio c#\\proyectos\\lab#3\\lab#3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{589EC70C-3009-4295-915E-F1DB8767FCA9}|Lab#3\\Lab#3.csproj|solutionrelative:lab#3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\Desarrollo de Software IV\\Visual Studio C#\\Proyectos\\Lab#3\\Lab#3\\Form1.cs",
+              "RelativeDocumentMoniker": "Lab#3\\Form1.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\Desarrollo de Software IV\\Visual Studio C#\\Proyectos\\Lab#3\\Lab#3\\Form1.cs [Design]",
+              "RelativeToolTip": "Lab#3\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T18:18:00.854Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
