@@ -7,3 +7,4 @@ C:\Users\diego\OneDrive\Documents\GitHub\Lab-3-DSIV\Lab#3\Lab#3\obj\Debug\Lab#3.
 C:\Users\diego\OneDrive\Documents\GitHub\Lab-3-DSIV\Lab#3\Lab#3\obj\Debug\Lab#3.csproj.CoreCompileInputs.cache
 C:\Users\diego\OneDrive\Documents\GitHub\Lab-3-DSIV\Lab#3\Lab#3\obj\Debug\Lab#3.exe
 C:\Users\diego\OneDrive\Documents\GitHub\Lab-3-DSIV\Lab#3\Lab#3\obj\Debug\Lab#3.pdb
+C:\Users\diego\OneDrive\Documents\GitHub\Lab-3-DSIV\Lab#3\Lab#3\obj\Debug\Lab_3.Form1.resources

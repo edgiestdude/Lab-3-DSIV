@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.CodeAnalysis;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -16,5 +17,65 @@ namespace Lab_3
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+        private void btCalcular_Click(object sender, EventArgs e)
+        {
+            lvNumeros.Items.Clear();
+            int.TryParse(txtNumeros.Text, out int limite);
+            
+            for (int i = 1; i <= limite; i++)
+            {
+                ListViewItem fila = new ListViewItem(i.ToString());
+                bool esPrimo = true;
+                
+                for (int j = 2; j <= Math.Sqrt(i); j++)
+                {
+                    if(i % j == 0)
+                    {
+                        esPrimo = false;
+                        break;
+                    }
+                }
+                if(esPrimo)
+                {
+                    fila.SubItems.Add("Primo");
+                }
+                else
+                {
+                    fila.SubItems.Add("");
+                }
+
+                //Calcular perfecto
+                int contador = 0;
+                for (int j = 1; j < i; j++)
+                {
+                    if (i % j == 0)
+                    {
+                        contador = contador + j;
+
+                    }
+                }
+
+                if (contador == i) {
+                    fila.SubItems.Add("Perfectos");
+                  
+                }
+                else
+                {
+                    fila.SubItems.Add("");
+                }
+                lvNumeros.Items.Add(fila);
+            }
+        }
+
+
+
     }
 }

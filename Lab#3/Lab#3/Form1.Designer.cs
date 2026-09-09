@@ -30,15 +30,26 @@
         {
             System.Windows.Forms.Label lbPerfectos;
             this.txtNumeros = new System.Windows.Forms.TextBox();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.lvNumeros = new System.Windows.Forms.ListView();
+            this.Numeros = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Primos = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Perfectos = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lbPrimos = new System.Windows.Forms.Label();
-            this.Numeros = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.Perfectos = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.Primos = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.btCalcular = new System.Windows.Forms.Button();
             lbPerfectos = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // lbPerfectos
+            // 
+            lbPerfectos.AutoSize = true;
+            lbPerfectos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            lbPerfectos.Location = new System.Drawing.Point(557, 208);
+            lbPerfectos.Name = "lbPerfectos";
+            lbPerfectos.Size = new System.Drawing.Size(188, 24);
+            lbPerfectos.TabIndex = 5;
+            lbPerfectos.Text = "Escriba un numero";
             // 
             // txtNumeros
             // 
@@ -49,20 +60,35 @@
             this.txtNumeros.Size = new System.Drawing.Size(100, 29);
             this.txtNumeros.TabIndex = 0;
             // 
-            // listView1
+            // lvNumeros
             // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.lvNumeros.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.Numeros,
             this.Primos,
             this.Perfectos});
-            this.listView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(247, 69);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(273, 351);
-            this.listView1.TabIndex = 1;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
+            this.lvNumeros.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lvNumeros.HideSelection = false;
+            this.lvNumeros.Location = new System.Drawing.Point(260, 68);
+            this.lvNumeros.Name = "lvNumeros";
+            this.lvNumeros.Size = new System.Drawing.Size(273, 351);
+            this.lvNumeros.TabIndex = 1;
+            this.lvNumeros.UseCompatibleStateImageBehavior = false;
+            this.lvNumeros.View = System.Windows.Forms.View.Details;
+            // 
+            // Numeros
+            // 
+            this.Numeros.Text = "Numeros";
+            this.Numeros.Width = 107;
+            // 
+            // Primos
+            // 
+            this.Primos.DisplayIndex = 2;
+            this.Primos.Text = "Primos";
+            // 
+            // Perfectos
+            // 
+            this.Perfectos.DisplayIndex = 1;
+            this.Perfectos.Text = "Perfectos";
             // 
             // label1
             // 
@@ -88,50 +114,37 @@
             // 
             this.lbPrimos.AutoSize = true;
             this.lbPrimos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbPrimos.Location = new System.Drawing.Point(600, 131);
+            this.lbPrimos.Location = new System.Drawing.Point(557, 143);
             this.lbPrimos.Name = "lbPrimos";
             this.lbPrimos.Size = new System.Drawing.Size(188, 24);
             this.lbPrimos.TabIndex = 4;
             this.lbPrimos.Text = "Escriba un numero";
             // 
-            // lbPerfectos
+            // btCalcular
             // 
-            lbPerfectos.AutoSize = true;
-            lbPerfectos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            lbPerfectos.Location = new System.Drawing.Point(600, 207);
-            lbPerfectos.Name = "lbPerfectos";
-            lbPerfectos.Size = new System.Drawing.Size(188, 24);
-            lbPerfectos.TabIndex = 5;
-            lbPerfectos.Text = "Escriba un numero";
-            // 
-            // Numeros
-            // 
-            this.Numeros.Text = "Numeros";
-            this.Numeros.Width = 107;
-            // 
-            // Perfectos
-            // 
-            this.Perfectos.DisplayIndex = 1;
-            this.Perfectos.Text = "Perfectos";
-            // 
-            // Primos
-            // 
-            this.Primos.DisplayIndex = 2;
-            this.Primos.Text = "Primos";
+            this.btCalcular.Location = new System.Drawing.Point(41, 166);
+            this.btCalcular.Name = "btCalcular";
+            this.btCalcular.Size = new System.Drawing.Size(115, 51);
+            this.btCalcular.TabIndex = 6;
+            this.btCalcular.Text = "Calcular";
+            this.btCalcular.UseVisualStyleBackColor = true;
+            this.btCalcular.Click += new System.EventHandler(this.btCalcular_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btCalcular);
             this.Controls.Add(lbPerfectos);
             this.Controls.Add(this.lbPrimos);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.lvNumeros);
             this.Controls.Add(this.txtNumeros);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Primos y Perfectos";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -140,13 +153,14 @@
         #endregion
 
         private System.Windows.Forms.TextBox txtNumeros;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ListView lvNumeros;
         private System.Windows.Forms.ColumnHeader Primos;
         private System.Windows.Forms.ColumnHeader Numeros;
         private System.Windows.Forms.ColumnHeader Perfectos;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbPrimos;
+        private System.Windows.Forms.Button btCalcular;
     }
 }
 
