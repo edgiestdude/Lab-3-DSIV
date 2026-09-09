@@ -29,7 +29,8 @@ namespace Lab_3
         {
             lvNumeros.Items.Clear();
             int.TryParse(txtNumeros.Text, out int limite);
-            
+            int _cantpri = 0;
+            int _cantper = 0;
             for (int i = 1; i <= limite; i++)
             {
                 ListViewItem fila = new ListViewItem(i.ToString());
@@ -45,6 +46,7 @@ namespace Lab_3
                 }
                 if(esPrimo)
                 {
+                    _cantpri = _cantpri + 1;
                     fila.SubItems.Add("Primo");
                 }
                 else
@@ -64,6 +66,7 @@ namespace Lab_3
                 }
 
                 if (contador == i) {
+                    _cantper = _cantper + 1;
                     fila.SubItems.Add("Perfectos");
                   
                 }
@@ -72,9 +75,11 @@ namespace Lab_3
                     fila.SubItems.Add("");
                 }
                 lvNumeros.Items.Add(fila);
+                lbPrimos.Text = "Primos: " + _cantpri;
+                lbPerfectos.Text = "Perfectos: " + _cantper;
             }
+            
         }
-
 
 
     }

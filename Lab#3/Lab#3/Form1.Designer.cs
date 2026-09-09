@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.Label lbPerfectos;
             this.txtNumeros = new System.Windows.Forms.TextBox();
             this.lvNumeros = new System.Windows.Forms.ListView();
             this.Numeros = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -38,18 +37,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lbPrimos = new System.Windows.Forms.Label();
             this.btCalcular = new System.Windows.Forms.Button();
-            lbPerfectos = new System.Windows.Forms.Label();
+            this.lbPerfectos = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // lbPerfectos
-            // 
-            lbPerfectos.AutoSize = true;
-            lbPerfectos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            lbPerfectos.Location = new System.Drawing.Point(557, 208);
-            lbPerfectos.Name = "lbPerfectos";
-            lbPerfectos.Size = new System.Drawing.Size(188, 24);
-            lbPerfectos.TabIndex = 5;
-            lbPerfectos.Text = "Escriba un numero";
             // 
             // txtNumeros
             // 
@@ -116,9 +105,9 @@
             this.lbPrimos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbPrimos.Location = new System.Drawing.Point(557, 143);
             this.lbPrimos.Name = "lbPrimos";
-            this.lbPrimos.Size = new System.Drawing.Size(188, 24);
+            this.lbPrimos.Size = new System.Drawing.Size(74, 24);
             this.lbPrimos.TabIndex = 4;
-            this.lbPrimos.Text = "Escriba un numero";
+            this.lbPrimos.Text = "Primos";
             // 
             // btCalcular
             // 
@@ -130,13 +119,23 @@
             this.btCalcular.UseVisualStyleBackColor = true;
             this.btCalcular.Click += new System.EventHandler(this.btCalcular_Click);
             // 
+            // lbPerfectos
+            // 
+            this.lbPerfectos.AutoSize = true;
+            this.lbPerfectos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPerfectos.Location = new System.Drawing.Point(557, 211);
+            this.lbPerfectos.Name = "lbPerfectos";
+            this.lbPerfectos.Size = new System.Drawing.Size(74, 24);
+            this.lbPerfectos.TabIndex = 7;
+            this.lbPerfectos.Text = "Primos";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbPerfectos);
             this.Controls.Add(this.btCalcular);
-            this.Controls.Add(lbPerfectos);
             this.Controls.Add(this.lbPrimos);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -161,6 +160,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbPrimos;
         private System.Windows.Forms.Button btCalcular;
+        private System.Windows.Forms.Label lbPerfectos;
     }
 }
 
