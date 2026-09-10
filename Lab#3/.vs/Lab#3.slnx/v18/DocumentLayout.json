@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{589EC70C-3009-4295-915E-F1DB8767FCA9}|Lab#3\\Lab#3.csproj|solutionrelative:lab#3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{589EC70C-3009-4295-915E-F1DB8767FCA9}|Lab#3\\Lab#3.csproj|C:\\Users\\diego\\OneDrive\\Documents\\GitHub\\Lab-3-DSIV\\Lab#3\\lab#3\\opfrase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{589EC70C-3009-4295-915E-F1DB8767FCA9}|Lab#3\\Lab#3.csproj|solutionrelative:lab#3\\opfrase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{589EC70C-3009-4295-915E-F1DB8767FCA9}|Lab#3\\Lab#3.csproj|C:\\Users\\diego\\OneDrive\\Documents\\GitHub\\Lab-3-DSIV\\Lab#3\\lab#3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{589EC70C-3009-4295-915E-F1DB8767FCA9}|Lab#3\\Lab#3.csproj|solutionrelative:lab#3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{589EC70C-3009-4295-915E-F1DB8767FCA9}|Lab#3\\Lab#3.csproj|C:\\Users\\diego\\OneDrive\\Documents\\GitHub\\Lab-3-DSIV\\Lab#3\\lab#3\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{589EC70C-3009-4295-915E-F1DB8767FCA9}|Lab#3\\Lab#3.csproj|solutionrelative:lab#3\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{589EC70C-3009-4295-915E-F1DB8767FCA9}|Lab#3\\Lab#3.csproj|C:\\Users\\diego\\OneDrive\\Documents\\GitHub\\Lab-3-DSIV\\Lab#3\\lab#3\\opfrase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{589EC70C-3009-4295-915E-F1DB8767FCA9}|Lab#3\\Lab#3.csproj|solutionrelative:lab#3\\opfrase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,20 +62,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documents\\GitHub\\Lab-3-DSIV\\Lab#3\\Lab#3\\Form1.cs",
               "RelativeDocumentMoniker": "Lab#3\\Form1.cs",
               "ToolTip": "C:\\Users\\diego\\OneDrive\\Documents\\GitHub\\Lab-3-DSIV\\Lab#3\\Lab#3\\Form1.cs",
               "RelativeToolTip": "Lab#3\\Form1.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAewFgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAFwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-10T03:43:55.624Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documents\\GitHub\\Lab-3-DSIV\\Lab#3\\Lab#3\\Form2.cs",
+              "RelativeDocumentMoniker": "Lab#3\\Form2.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documents\\GitHub\\Lab-3-DSIV\\Lab#3\\Lab#3\\Form2.cs",
+              "RelativeToolTip": "Lab#3\\Form2.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAD4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T03:34:42.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "OpFrase.cs",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documents\\GitHub\\Lab-3-DSIV\\Lab#3\\Lab#3\\OpFrase.cs",
               "RelativeDocumentMoniker": "Lab#3\\OpFrase.cs",
@@ -84,19 +97,6 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-10T03:35:30.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documents\\GitHub\\Lab-3-DSIV\\Lab#3\\Lab#3\\Form2.cs",
-              "RelativeDocumentMoniker": "Lab#3\\Form2.cs",
-              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documents\\GitHub\\Lab-3-DSIV\\Lab#3\\Lab#3\\Form2.cs",
-              "RelativeToolTip": "Lab#3\\Form2.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAWwEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T03:34:42.112Z",
               "EditorCaption": ""
             }
           ]

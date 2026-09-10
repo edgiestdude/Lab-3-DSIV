@@ -88,5 +88,11 @@ namespace Lab_3
             form2.Show();
 
         }
+
+        private void btLimpiar_Click(object sender, EventArgs e)
+        {
+            txtNumeros.Clear();
+            lvNumeros.Items.Clear();
+        }
     }
 }

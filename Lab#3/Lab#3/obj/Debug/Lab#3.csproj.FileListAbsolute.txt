@@ -19,3 +19,4 @@ C:\Escritorio\GitHub\Lab-3-DSIV\Lab#3\Lab#3\obj\Debug\Lab#3.csproj.GenerateResou
 C:\Escritorio\GitHub\Lab-3-DSIV\Lab#3\Lab#3\obj\Debug\Lab#3.csproj.CoreCompileInputs.cache
 C:\Escritorio\GitHub\Lab-3-DSIV\Lab#3\Lab#3\obj\Debug\Lab#3.exe
 C:\Escritorio\GitHub\Lab-3-DSIV\Lab#3\Lab#3\obj\Debug\Lab#3.pdb
+C:\Users\diego\OneDrive\Documents\GitHub\Lab-3-DSIV\Lab#3\Lab#3\obj\Debug\Lab_3.Form2.resources

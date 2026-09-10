@@ -39,16 +39,16 @@
             this.btCalcular = new System.Windows.Forms.Button();
             this.lbPerfectos = new System.Windows.Forms.Label();
             this.btNext = new System.Windows.Forms.Button();
+            this.btLimpiar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtNumeros
             // 
             this.txtNumeros.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumeros.Location = new System.Drawing.Point(61, 124);
-            this.txtNumeros.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNumeros.Location = new System.Drawing.Point(46, 101);
             this.txtNumeros.MaxLength = 30;
             this.txtNumeros.Name = "txtNumeros";
-            this.txtNumeros.Size = new System.Drawing.Size(132, 34);
+            this.txtNumeros.Size = new System.Drawing.Size(100, 29);
             this.txtNumeros.TabIndex = 0;
             // 
             // lvNumeros
@@ -59,10 +59,9 @@
             this.Perfectos});
             this.lvNumeros.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvNumeros.HideSelection = false;
-            this.lvNumeros.Location = new System.Drawing.Point(347, 84);
-            this.lvNumeros.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lvNumeros.Location = new System.Drawing.Point(260, 68);
             this.lvNumeros.Name = "lvNumeros";
-            this.lvNumeros.Size = new System.Drawing.Size(363, 431);
+            this.lvNumeros.Size = new System.Drawing.Size(273, 351);
             this.lvNumeros.TabIndex = 1;
             this.lvNumeros.UseCompatibleStateImageBehavior = false;
             this.lvNumeros.View = System.Windows.Forms.View.Details;
@@ -86,10 +85,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(396, 39);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(297, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(232, 29);
+            this.label1.Size = new System.Drawing.Size(183, 24);
             this.label1.TabIndex = 2;
             this.label1.Text = "Primos y Perfectos";
             // 
@@ -97,10 +95,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(33, 68);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(25, 55);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(231, 29);
+            this.label2.Size = new System.Drawing.Size(188, 24);
             this.label2.TabIndex = 3;
             this.label2.Text = "Escriba un numero";
             // 
@@ -108,19 +105,17 @@
             // 
             this.lbPrimos.AutoSize = true;
             this.lbPrimos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbPrimos.Location = new System.Drawing.Point(743, 176);
-            this.lbPrimos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbPrimos.Location = new System.Drawing.Point(557, 143);
             this.lbPrimos.Name = "lbPrimos";
-            this.lbPrimos.Size = new System.Drawing.Size(95, 29);
+            this.lbPrimos.Size = new System.Drawing.Size(74, 24);
             this.lbPrimos.TabIndex = 4;
             this.lbPrimos.Text = "Primos";
             // 
             // btCalcular
             // 
-            this.btCalcular.Location = new System.Drawing.Point(55, 204);
-            this.btCalcular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btCalcular.Location = new System.Drawing.Point(41, 166);
             this.btCalcular.Name = "btCalcular";
-            this.btCalcular.Size = new System.Drawing.Size(153, 63);
+            this.btCalcular.Size = new System.Drawing.Size(115, 51);
             this.btCalcular.TabIndex = 6;
             this.btCalcular.Text = "Calcular";
             this.btCalcular.UseVisualStyleBackColor = true;
@@ -130,10 +125,9 @@
             // 
             this.lbPerfectos.AutoSize = true;
             this.lbPerfectos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbPerfectos.Location = new System.Drawing.Point(743, 260);
-            this.lbPerfectos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbPerfectos.Location = new System.Drawing.Point(557, 211);
             this.lbPerfectos.Name = "lbPerfectos";
-            this.lbPerfectos.Size = new System.Drawing.Size(95, 29);
+            this.lbPerfectos.Size = new System.Drawing.Size(74, 24);
             this.lbPerfectos.TabIndex = 7;
             this.lbPerfectos.Text = "Primos";
             // 
@@ -142,19 +136,34 @@
             this.btNext.BackColor = System.Drawing.Color.SteelBlue;
             this.btNext.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btNext.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btNext.Location = new System.Drawing.Point(55, 307);
+            this.btNext.Location = new System.Drawing.Point(41, 249);
+            this.btNext.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btNext.Name = "btNext";
-            this.btNext.Size = new System.Drawing.Size(178, 51);
+            this.btNext.Size = new System.Drawing.Size(134, 41);
             this.btNext.TabIndex = 8;
             this.btNext.Text = "Siguiente";
             this.btNext.UseVisualStyleBackColor = false;
             this.btNext.Click += new System.EventHandler(this.btNext_Click);
             // 
+            // btLimpiar
+            // 
+            this.btLimpiar.BackColor = System.Drawing.Color.DimGray;
+            this.btLimpiar.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btLimpiar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btLimpiar.Location = new System.Drawing.Point(41, 318);
+            this.btLimpiar.Name = "btLimpiar";
+            this.btLimpiar.Size = new System.Drawing.Size(134, 44);
+            this.btLimpiar.TabIndex = 9;
+            this.btLimpiar.Text = "Limpiar";
+            this.btLimpiar.UseVisualStyleBackColor = false;
+            this.btLimpiar.Click += new System.EventHandler(this.btLimpiar_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btLimpiar);
             this.Controls.Add(this.btNext);
             this.Controls.Add(this.lbPerfectos);
             this.Controls.Add(this.btCalcular);
@@ -163,7 +172,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lvNumeros);
             this.Controls.Add(this.txtNumeros);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Primos y Perfectos";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -185,6 +193,7 @@
         private System.Windows.Forms.Button btCalcular;
         private System.Windows.Forms.Label lbPerfectos;
         private System.Windows.Forms.Button btNext;
+        private System.Windows.Forms.Button btLimpiar;
     }
 }
 
