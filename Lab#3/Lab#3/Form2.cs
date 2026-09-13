@@ -7,7 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/*GRUPO: 1GS125
+    * INTEGRANTES:
+    * Arauz, Anyeline 8-1040-2428
+    * Hernandez, Diego  20-70-8359
+    * Martez, Alanis 8-1019-2389
+    * Rodriguez Analia 8-1037-1667 */
 namespace Lab_3
 {
     public partial class Form2 : Form
@@ -63,6 +68,13 @@ namespace Lab_3
             txtFrase.Clear();
             lvFrase.Items.Clear();
 
+        }
+
+        private void btNext_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form3 form3 = new Form3();
+            form3.Show();
         }
     }
 }
